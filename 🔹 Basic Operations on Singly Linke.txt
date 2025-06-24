@@ -1,0 +1,72 @@
+🔹 Basic Operations on Singly Linked List
+1. Insertion
+Inserting a node into the list.
+
+At the beginning (head)
+
+At the end (tail)
+
+At a given position (index or after a specific value)
+
+2. Deletion
+Removing a node from the list.
+
+From the beginning (head)
+
+From the end (tail)
+
+At a given position (by index or value)
+
+3. Traversal
+Visiting each node from head to end.
+
+Used to display elements.
+
+java
+Copy
+Edit
+Node curr = head;
+while (curr != null) {
+    System.out.println(curr.data);
+    curr = curr.next;
+}
+4. Search
+Search for a node by value or position.
+
+Returns node reference or position if found.
+
+5. Update
+Modify the value of a node (typically after finding it by value or position).
+
+🔹 Advanced Operations
+6. Reverse the List
+Reverse the list so the last node becomes the head.
+
+Usually done using 3 pointers: prev, curr, and next.
+
+7. Find Length
+Count total nodes in the list.
+
+8. Find Middle Node
+Use slow and fast pointer approach to find the middle node in one pass.
+
+9. Detect Loop (Cycle)
+Use Floyd’s Cycle Detection Algorithm (Tortoise and Hare).
+
+10. Remove Duplicates
+If list is sorted, traverse and remove nodes with the same value.
+
+11. Merge Two Sorted Lists
+Merge two sorted singly linked lists into one sorted list.
+
+12. Sort the List
+Sort the list using Merge Sort or Bubble Sort (not efficient on linked list but possible).
+
+13. Nth Node from End
+Use two-pointer approach to find the nth node from the end in a single pass.
+
+14. Check if Palindrome
+Use a stack or reverse second half and compare.
+
+15. Delete Entire List
+Set head to null and optionally free memory in some languages (Java GC handles it).
